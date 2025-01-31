@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset ="UTF-8">
+  <meta http-equiv="X-UA-compatible" content="IE=edge">
+  <meta name ="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <title>Survey</title>
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <h1 id="title" class="title-text">Welcome to this page</h1>
+      <p id="description" class="description title-text">Thank you ! </p>
+    </header>
+  <form id="survey-form" class="survey-form" action="" method="">
+    <div class="form-group">
+        <label id="name-label" >Name
+        <input type ="text" name ="name" id="name" value="" class="form-control" placeholder="yourname" required>
+        </label>
+    </div>
+    <div class="form-group">
+        <label id="email-label">Email
+        <input type ="email" name ="" id="email" value="" class="form-control" placeholder="email" required>
+        </label>
+    </div>
+    <div class="form-group">
+        <label id="number-label"> Age
+        <input type ="number" name ="" id="number" value="" min="0" max="100" class="form-control" placeholder="Age">
+        </label>
+    </div>
+    <div class="form-group">
+      <p>What is your occupation?
+        <select id="dropdown" name="" class="" required>
+          <option select>Select</option>
+          <option value="Student">Orage</option>
+          <option value="Business">Business</option>
+          <option value="retiree">RetireeRetiree</option>
+          <option value="other">Other</option>
+        </select>
+     </p> 
+    </div>
+    <div class="form-group">
+      <p>What is your favorite fruit?</p>
+        <lable>
+          <input type="checkbox" name="" id="" value="aple" class="input-checkbox">Aple
+        </lable>
+        <br>
+        <lable>
+          <input type="checkbox" name="" id="" value="banana" class="input-checkbox">Banana
+         </lable>
+         <br>
+         <lable>
+          <input type="checkbox" name="" id="" value="orage" class="input-checkbox">Orage
+          </lable>
+          <br>
+        <lable>
+          <input type="checkbox" name="" id="" value="watermelon" class="input-checkbox">watermelon
+         </lable>
+        <br>
+    </div>
+    <div class="form-group">
+      <p>Do you like this survey
+        <lable>
+          <input type="radio" name="button-group" id="" value="1" class="input-radio">like
+        </lable>
+        <lable>
+          <input type="radio" name="button-group" id="" value="2" class="input-radio">maybe
+        </lable>
+        <lable>
+          <input type="radio" name="button-group" id="" value="3" class="input-radio">dislike
+        </lable>
+      </p>
+    </div>
+    <div class="form-group">
+      <p>What do you want to say about this survey?
+        <textarea id="" class="input-textarea" name="" placeholder="in here">
+        </textarea>
+      </p>
+    </div>
+    <div class="form-group">
+      <button type="submit" id="submit" class="submit-button" >Submit</button>
+    </div>
+  </form>
+</div>
+</body>
+</html>
